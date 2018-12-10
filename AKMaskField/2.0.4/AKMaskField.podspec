@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-	s.name         = "AKMaskField"
+  s.name         = "AKMaskField"
   s.version      = "2.0.4"
   s.homepage     = "https://github.com/artemkrachulov/AKMaskField"
   s.summary      = "Enter data in the fixed quantity and in the certain format."
@@ -13,13 +13,13 @@ Pod::Spec.new do |s|
 
   # Source Info
 
-	s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "8.0"
 
-	s.source       	= { 
-		:git => "https://github.com/jessearmand/AKMaskField.git",
-		:tag => 'v'+s.version.to_s 
-	}
+  s.source        = {
+    :git => "https://github.com/jessearmand/AKMaskField.git",
+    :tag => 'v'+s.version.to_s
+  }
 
- 	s.source_files  = "AKMaskField/*.{swift}"
+  s.source_files  = "AKMaskField/*.{swift}"
   s.swift_version = "4.2"
 end
